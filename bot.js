@@ -13,7 +13,7 @@ const M = new Mastodon({
   api_url: 'https://obkkszd.club/api/v1/', // optional, defaults to https://mastodon.social/api/v1/
 })
 
-const postxt = fs.readFileSync('/Users/anthea/Documents/GitHub/scraped_text.txt', (err, data) => { 
+const postxt = fs.readFileSync('scraped_text.txt', (err, data) => { 
   if (err) throw err; 
   console.log(data.toString()); 
 });
